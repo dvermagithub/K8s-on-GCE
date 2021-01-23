@@ -5,9 +5,9 @@ metadata:
   labels:
     app: wordpress
 spec:
+  type: LoadBalancer
   ports:
   - port: 8080
     targetPort: 80
   selector:
     app: wordpress
-  type: LoadBalancer
