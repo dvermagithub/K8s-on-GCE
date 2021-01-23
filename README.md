@@ -1,2 +1,3 @@
-# K8s on GCE
- 
+# Running Kubernetes on GCE using Containerd
+
+## Background
